@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C16D7CB98DFBDF2F4719A4A /* Pods_Bokete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B87AE777CC59352AC87909 /* Pods_Bokete.framework */; };
+		FE830208234DBA1D00950732 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE830207234DBA1D00950732 /* ShareViewController.swift */; };
 		FED94532234C9A8500322FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED94531234C9A8500322FB3 /* AppDelegate.swift */; };
 		FED94534234C9A8500322FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED94533234C9A8500322FB3 /* SceneDelegate.swift */; };
 		FED94536234C9A8500322FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED94535234C9A8500322FB3 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		304F0E6BCDF27D1FF76EDEE1 /* Pods-Bokete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bokete.release.xcconfig"; path = "Target Support Files/Pods-Bokete/Pods-Bokete.release.xcconfig"; sourceTree = "<group>"; };
 		405B89C84883DAADA124CF0E /* Pods-Bokete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bokete.debug.xcconfig"; path = "Target Support Files/Pods-Bokete/Pods-Bokete.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B87AE777CC59352AC87909 /* Pods_Bokete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bokete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE830207234DBA1D00950732 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		FED9452E234C9A8500322FB3 /* Bokete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bokete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED94531234C9A8500322FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED94533234C9A8500322FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				405B89C84883DAADA124CF0E /* Pods-Bokete.debug.xcconfig */,
 				304F0E6BCDF27D1FF76EDEE1 /* Pods-Bokete.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				FED9453A234C9A8800322FB3 /* Assets.xcassets */,
 				FED9453C234C9A8800322FB3 /* LaunchScreen.storyboard */,
 				FED9453F234C9A8800322FB3 /* Info.plist */,
+				FE830207234DBA1D00950732 /* ShareViewController.swift */,
 			);
 			path = Bokete;
 			sourceTree = "<group>";
@@ -209,6 +211,7 @@
 			files = (
 				FED94536234C9A8500322FB3 /* ViewController.swift in Sources */,
 				FED94532234C9A8500322FB3 /* AppDelegate.swift in Sources */,
+				FE830208234DBA1D00950732 /* ShareViewController.swift in Sources */,
 				FED94534234C9A8500322FB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
